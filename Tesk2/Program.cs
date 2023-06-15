@@ -10,7 +10,7 @@ int DigitNumber(int num)
 {
     int index = 1;
     int ind = 0;
-    while (num > 1)
+    while (num >= 1)
     {
         num = num / 10;
         index = index * 10;
